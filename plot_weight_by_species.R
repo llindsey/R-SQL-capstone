@@ -16,7 +16,7 @@ print(paste("Getting data for year",year))
 
 # create a connection to the database
 # 
-myDB <- "~/Desktop/swc_unc_sql/portal_project.sqlite"
+myDB <- "~/Desktop/capstone/portal_project.sqlite"
 conn <- dbConnect(drv = SQLite(), dbname= myDB)
 
 # some database functions for listing tables and fields
